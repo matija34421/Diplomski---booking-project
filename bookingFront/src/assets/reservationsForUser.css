@@ -1,0 +1,106 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservationContainer{
+    width: 50%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 24px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservationPic{
+    width: 33%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.reservation-td{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.reservation-title{
+    font-weight: bold;
+    font-size: large;
+    color: #386180;
+}
+
+.reservation-desc{
+    border: none;
+    width: 100%;
+    height: 160px;
+    max-height: 165px;
+    max-width: 90%;
+    background-color: rgb(248, 248, 248);
+}
+
+.reservation-pd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 34%;
+}
+
+.reservation-price{
+    color:#386180;
+    font-weight: bold;
+}
+
+.reservation-click,.reservation-delete{
+    padding: 1% 2%;
+    width: 100%;
+    background-color: #386180;
+    border: 1px solid #719fc1;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.reservation-delete{
+    background-color: rgb(134, 0, 0);
+    padding: 1% 2%;
+    width: 100%;
+    border: 1px solid rgb(193, 113, 113);
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.reservation-click:hover{
+    background-color: white;
+    color: #386180;
+    border: 1px solid #719fc1;
+}
+
+.reservation-delete:hover{
+    background-color: white;
+    color: rgb(134, 0, 0);
+    border: 1px solid rgb(193, 113, 113);
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

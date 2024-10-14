@@ -1,0 +1,226 @@
+.index-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #386180;
+}
+
+.index-container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-part{
+    width: 100%;
+    background-color: #386180;
+    height: 200px;
+}
+
+.first-part>h1{
+    margin: 80px 0 0 15px;
+}
+
+.first-part>h2{
+    margin: 15px 0 0 12px;
+}
+
+.first-part>h1,h2{
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-by-type{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-by-type-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search-by-type>h2{
+    width: 100%;
+    color: #386180;
+    text-align: left;
+}
+
+.type-pic{
+    width: 215px;
+    height: 210px;
+    border: none;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    margin: 20px;
+}
+
+.search-type{
+    width: 25%;
+    text-align: left;
+    transition: background-color 0.5s, border-radius 0.5s;
+}
+.search-type>h3{
+    margin-left: 7%;
+}
+
+.search-type:hover{
+    border-radius: 24px;
+    background-color: rgb(238, 242, 254);
+    color: black;
+
+}
+
+#hotel-pic{
+    background-image: url('../assets/hotel-pic.jpeg');
+}
+
+#apartman-pic{
+    background-image: url('../assets/apartman-pic.jpeg');
+}
+
+#vila-pic{
+    background-image: url('../assets/vila-pic.jpeg');
+}
+
+#vikendica-pic{
+    background-image: url('../assets/vikendica-pic.jpeg');
+}
+
+.search-by-location{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-by-location>h2{
+    width: 100%;
+    height: 50px;
+    color: #386180;
+    margin-bottom: 0;
+}
+
+
+.locations-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations1-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-size:cover;
+}
+
+.location1-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 475px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+}
+
+.location1-child:hover{
+    border-radius: 24px;
+    background-color: rgb(238, 242, 254);
+    color: rgb(0, 0, 0);
+}
+
+.location1-child>h3{
+    margin: 0;
+    text-align: left;
+    justify-content: left;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#spain-pic {
+    background-image: url('../assets/barca.jpeg');
+    background-position: 50%;
+}
+
+#serb-pic{
+    background-image: url('../assets/blgrd2.jpeg');
+    background-position: 20%;
+}
+
+.locations-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations2-child{
+    width: 25%;
+    text-align: left;
+    transition: background-color 0.5s, border-radius 0.5s;
+}
+
+.locations2-child:hover{
+    border-radius: 24px;
+    background-color: rgb(238, 242, 254);
+    color: rgb(0, 0, 0);
+}
+
+.locations2-child>h3{
+   width: 100%;
+   text-align: left;
+   margin-left: 20px;
+}
+
+.locations2-pic{
+    width: 215px;
+    height: 210px;
+    border: none;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    margin: 20px;
+}
+
+#amerika-pic{
+    background-image: url('../assets/vegas.jpeg');
+}
+#francuksa-pic{
+    background-image: url('../assets/paris.jpeg');
+    background-position: 50%;
+}
+#tajland-pic{
+    background-image: url('../assets/thailand.jpeg');
+}
+#italija-pic{
+    background-image: url('../assets/rome.jpeg');
+}
+
+

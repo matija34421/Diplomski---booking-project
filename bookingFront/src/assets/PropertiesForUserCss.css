@@ -1,0 +1,26 @@
+.property-Container{
+    height: 470px;
+}
+
+.propertyButton{
+    background-color:#386180;
+    color:white;
+    margin:10px;
+}
+
+.form{
+    width: 100%;
+}
+
+.second-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.formDataCheck{
+    margin-right: 15px;
+}
+
+.propertyButton:disabled{
+    background-color: rgb(194, 191, 191);
+}

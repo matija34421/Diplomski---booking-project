@@ -1,0 +1,118 @@
+#root{
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #386180;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    height: 70px;
+    background-color: #386180;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 70px;
+    height: 70px;
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.nav-buttons{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-button{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #b8daf2;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.navbar-button:hover{
+    background-color: white;
+    color: #386180;
+    border: 1px solid #719fc1;
+}
+
+#nav-button{
+    margin-right: 20px;
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 7.3%;
+    right: 19.9%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 200px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-dropdown.open {
+    opacity: 1;
+    transform: translateY(0); /* Prikazuje se na poziciji */
+    pointer-events: auto; /* Dozvoljava klikanje kada je vidljiv */
+}
+
+.hamburger-icon {
+    cursor: pointer;
+}
+
+.menu-button {
+    display: flex;
+    width: 100%;
+    border-radius: 0;
+    height: 30px;
+    margin: 0;
+    background-color: #b8daf2;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.menu-button:hover {
+    background-color: white;
+    color: #386180;
+    border: 1px solid #719fc1;
+}

@@ -1,0 +1,260 @@
+.property-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-wrapper{
+    width: 60%;
+}
+
+.property-navbar>ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+ul>li{
+    width: 33%;
+    padding: 10px;
+    border-bottom: 0.5px solid #213547;
+    color: #213547;
+    transition: box-shadow 0.5s , background-color 0.5s;
+}
+
+ul>li:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(203, 202, 202, 0.2);
+}
+
+.property-first-part-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.property-first-part-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.property-reservation-button{
+    padding: 5px 15px;
+    border: #213547 1px solid;
+    border-radius: 8px;
+    background-color: #213547;
+    color: white;
+    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
+}
+
+.property-reservation-button:hover{
+    background-color: #b8daf2;
+    color: #213547;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.property-title{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.property-address{
+    text-align: left;
+    font-style: italic;
+    width: 100%;
+}
+
+.property-pictures{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.property-pic{
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.property-second-part{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.property-has{
+    display: flex;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border: 0.5px solid rgb(198, 198, 198);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.property-has>p{
+    margin-left: 10px;
+    width: auto;
+}
+
+.property-description{
+    text-align: left;
+}
+
+.property-description>h2{
+    color: #213547;
+}
+
+.property-third-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.property-third-part>h2{
+    color: #213547;
+}
+
+.property-dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-date-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: #e3bd56 1px solid;
+    border-radius: 12px;
+    padding: 10px;
+    height: 15px;
+    margin: 10px;
+}
+.property-date-input>input{
+    border: none;
+    border-radius: 6px;
+    background-color: azure;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 25px;
+    margin: 10px;
+}
+
+.property-date-input>p{
+    margin-right: 10px;
+    color: #213547;
+    font-weight: bold;
+}
+
+.property-reservation-button-2{
+    display: flex;
+    padding: 5px 15px;
+    border: #213547 1px solid;
+    border-radius: 8px;
+    background-color: #213547;
+    color: white;
+    font-weight: bold;
+    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.property-reservation-button-2:hover{
+    background-color: #e3bd56;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.property-first-part-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propertyReview{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertyReview>button{
+    font-size: small;
+    height: 35px;
+    background-color: white;
+    transition: background-color 0.5s;
+    border: none;
+}
+
+.propertyReview>button:hover{
+    background-color: #d1e5f6;
+    border: none;
+}
+
+.propertyReview-1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    margin: 0;
+}
+
+.userIcon{
+    padding: 8px 9px;
+    width: 20px;
+    height: 20px;
+    background-color: #213547;
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.propertyReview-1{
+    background-color: rgb(240, 239, 239);
+    text-align: left;
+    padding: 15px;
+    border-radius: 24px;
+    margin: 15px;
+    width: 250px;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.property-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+}
+
+.property-contact>h3{
+    margin-top: 30px;
+}
+
+.property-contact>p{
+    margin: 0;
+}

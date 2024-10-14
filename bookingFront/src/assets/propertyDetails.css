@@ -1,0 +1,22 @@
+.property-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.property-details>p{
+    margin-left: 10px;
+}
+
+.property-description>h2{
+    margin-left: 0px;
+}
+
+.property-reservation-button{
+    padding: 5px 15px;
+    border: #213547 1px solid;
+    border-radius: 8px;
+    background-color: #213547;
+    color: white;
+    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
+}
